@@ -50,7 +50,7 @@ cmd({
         break;
       default:
         return await client.sendMessage(from, {
-          text: "❌ Only image, video, and audio messages are supported"
+          text: "❌ Only image, video, and audio messages are supporttd"
         }, { quoted: message });
     }
 
