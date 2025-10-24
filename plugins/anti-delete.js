@@ -9,7 +9,7 @@ cmd({
     filename: __filename
 },
 async (conn, mek, m, { from, reply, text, isCreator }) => {
-    if (!isCreator) return reply('This command is only for the bot owner');
+    if (!isCreator) return reply('This command is only for Queen Omines owner');
     
     try {
         const currentStatus = await getAnti();
