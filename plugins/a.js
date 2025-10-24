@@ -17,11 +17,11 @@ async (conn, mek, m, {
     // Get the bot owner's number dynamically from conn.user.id
     const botOwner = conn.user.id.split(":")[0];
     if (senderNumber !== botOwner) {
-        return reply("❌ Only the bot owner can use this command.");
+        return reply("❌ Only the bot owner,Mark  or Omines can use this command.");
     }
 
     // Check if the bot is an admin
-    if (!isBotAdmins) return reply("❌ I need to be an admin to use this command.");
+    if (!isBotAdmins) return reply("❌ Make Queen Omines admin to use this command.");
 
     let number;
     if (m.quoted) {
