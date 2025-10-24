@@ -67,7 +67,7 @@ cmd({
         // Send warning message
         await conn.sendMessage(from, {
           text: `‎*⚠️LINKS ARE NOT ALLOWED⚠️*\n` +
-                `*╭────⬡ WARNING ⬡────*\n` +
+                `*╭────⬡ WARNING!! ⬡────*\n` +
                 `*├▢ USER :* @${sender.split('@')[0]}!\n` +
                 `*├▢ COUNT : ${warningCount}*\n` +
                 `*├▢ REASON : LINK SENDING*\n` +
