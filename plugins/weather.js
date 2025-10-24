@@ -22,7 +22,7 @@ END:VCARD`;
 
         const fakeContact = await conn.sendMessage(from, {
             contacts: {
-                displayName: "PK-XMD Official ✅",
+                displayName: "Mark Tech ✅",
                 contacts: [{ vcard }]
             }
         });
@@ -56,7 +56,7 @@ END:VCARD`;
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                     newsletterJid: '120363288304618280@newsletter',
-                    newsletterName: "ᴘᴋ-ɴᴇᴛᴡᴏʀᴋ 🔥",
+                    newsletterName: "Mark 🔥",
                     serverMessageId: 100
                 }
             }
