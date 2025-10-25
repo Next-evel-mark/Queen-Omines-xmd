@@ -30,8 +30,8 @@ cmd({
                 },
                 message: {
                     contactMessage: {
-                        displayName: 'PKDRILLER ✅',
-                        vcard: `BEGIN:VCARD\nVERSION:3.0\nFN:PKDRILLER ✅\nORG:PK-XMD;\nTEL;type=CELL;type=VOICE;waid=254700000000:+254 700 000000\nEND:VCARD`,
+                        displayName: 'NEXT_LEVEL_MARK ✅',
+                        vcard: `BEGIN:VCARD\nVERSION:3.0\nFN:NEXT_LEVEL_MARK ✅\nORG: QUEEN OMINES-XMD;\nTEL;type=CELL;type=VOICE;waid=254700000000:+254 700 000000\nEND:VCARD`,
                         jpegThumbnail: null
                     }
                 }
@@ -47,8 +47,8 @@ cmd({
                 contextInfo: {
                     externalAdReply: {
                         title: "HOLY BIBLE VERSES",
-                        body: "Powered by PK-XMD",
-                        thumbnailUrl: "https://files.catbox.moe/fgiecg.jpg",
+                        body: "Powered by QUEEN OMINES-XMD",
+                        thumbnailUrl: "https://files.catbox.moe/ca4z8w.jpg",
                         sourceUrl: "https://github.com/pkdriller",
                         mediaType: 1,
                         renderLargerThumbnail: false,
@@ -57,8 +57,8 @@ cmd({
                     forwardingScore: 999,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
-                        newsletterJid: "120363288304618280@newsletter",
-                        newsletterName: "PK-XMD Bot Updates",
+                        newsletterJid: "0029VavJhrh7tkj8dCeRKh3b@newsletter",
+                        newsletterName: "QUEEN OMINES-XMD Bot Updates",
                         serverMessageId: "",
                     }
                 }
