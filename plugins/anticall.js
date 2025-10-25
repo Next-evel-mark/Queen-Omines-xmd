@@ -41,7 +41,7 @@ Usage:
         externalAdReply: {
           title: "QUEEN OMINES-XMD SECURITY",
           body: "Call Blocker Control",
-          thumbnailUrl: "https://telegra.ph/file/8e97f07fd35640fc8fa51.jpg",
+          thumbnailUrl: "https://files.catbox.moe/ca4z8w.jpg",
           sourceUrl: "https://github.com/Next-evel-mark/Queen-Omines-xmd",
           mediaType: 1,
           renderLargerThumbnail: true,
@@ -49,7 +49,7 @@ Usage:
         },
         mentionedJid: [m.sender],
         forwardedNewsletterMessageInfo: {
-          newsletterJid: "120363026736000051@newsletter",
+          newsletterJid: "0029VavJhrh7tkj8dCeRKh3b@newsletter",
           newsletterName: "Queen Omines-XMD Bot Updates",
           serverMessageId: "77"
         }
