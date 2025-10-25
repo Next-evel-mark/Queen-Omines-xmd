@@ -22,11 +22,11 @@ async (conn, mek, m, { from, reply, text, isCreator }) => {
         
         if (action === 'on') {
             await setAnti(true);
-            return reply('✅ Anti-delete has been enabled');
+            return reply('_Anti-delete enabled_');
         } 
         else if (action === 'off') {
             await setAnti(false);
-            return reply('❌ Anti-delete has been disabled');
+            return reply('_Anti-delete disabled_');
         } 
         else {
             return reply('Invalid command. Usage:\n• .antidelete on\n• .antidelete off\n• .antidelete status');
