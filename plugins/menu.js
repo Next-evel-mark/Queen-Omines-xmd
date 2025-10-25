@@ -79,13 +79,13 @@ cmd({
     await conn.sendMessage(
       message.chat,
       {
-        image: { url: "https://files.catbox.moe/h4voyb.jpeg" },
+        image: { url: "https://files.catbox.moe/ca4z8w.jpg" },
         caption: menuText,
         contextInfo: {
           forwardingScore: 999,
           isForwarded: true,
           forwardedNewsletterMessageInfo: {
-            newsletterJid: "120363288304618280@newsletter",
+            newsletterJid: "0029VavJhrh7tkj8dCeRKh3b@newsletter",
             newsletterName: "Mark",
             serverMessageId: -1
           }
@@ -105,7 +105,7 @@ cmd({
           forwardingScore: 999,
           isForwarded: true,
           forwardedNewsletterMessageInfo: {
-            newsletterJid: "120363288304618280@newsletter",
+            newsletterJid: "0029VavJhrh7tkj8dCeRKh3b@newsletter",
             newsletterName: "Mark",
             serverMessageId: -1
           }
