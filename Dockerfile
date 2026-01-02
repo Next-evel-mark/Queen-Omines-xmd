@@ -1,20 +1,23 @@
 # Use official Node.js image
 FROM node:20-buster
 
-# Set the working directory inside the container
+# Create app directory
 WORKDIR /app
 
-# Copy package.json and package-lock.json to the container
+# Copy dependency files
 COPY package*.json ./
 
-# Install the application dependencies
-RUN npm install
+# Install production dependencies only
+RUN npm install --omit=dev
 
-# Copy the rest of the application files into the container
+# Copy app source
 COPY . .
 
-# Expose the port your app will be running on
+# Set environment to production
+ENV NODE_ENV=production
+
+# Expose app port
 EXPOSE 8000
 
-# Command to run the app
+# Run the app
 CMD ["npm", "start"]
